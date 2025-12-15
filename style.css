@@ -42,12 +42,6 @@ body {
   text-align: justify;
 }
 
-
-#blockContainer{
-  display : flex;
-  flex-flow: column;
-}
-
 #blockA{
   order:1;
 }
