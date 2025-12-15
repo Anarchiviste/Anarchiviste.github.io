@@ -17,7 +17,6 @@ body {
   display: flex;
   flex-direction: column;
   background-color: black;
-  color: var(--main-color);
 }
 
 .t1{
@@ -58,12 +57,4 @@ body {
 
 #blockA{
   order:1;
-}
-
-#blockB{
-  order:2;
-}
-
-#blockC{
-  order:3;
 }
