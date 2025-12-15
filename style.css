@@ -59,3 +59,10 @@ body {
 #blockC{
   order:3;
 }
+
+.container{
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  opacity: 0.9;
+}
