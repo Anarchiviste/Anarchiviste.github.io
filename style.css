@@ -1,3 +1,7 @@
+:root{
+  --main-color: white;
+}
+
 body {
   background-color: #050709;
   color: white;
@@ -15,6 +19,7 @@ body {
   display: flex;
   flex-direction: column;
   background-color: black;
+  color: var(--main-color);
 }
 
 .t1{
@@ -23,6 +28,7 @@ body {
   font-weight: 400;
   font-style: normal;
   text-align: center;
+  color: var(--main-color)
 }
 
 .t2{
@@ -31,6 +37,7 @@ body {
   font-weight: 400;
   font-style: normal;
   text-align: center;
+  color: var(--main-color)
 }
 
 .t3{
@@ -39,6 +46,7 @@ body {
   font-weight: 400;
   font-style: normal;
   text-align: justify;
+  color: var(--main-color);
 }
 
 .p1{
@@ -47,6 +55,7 @@ body {
   font-weight: 400;
   font-style: normal;
   text-align: justify;
+  color: var(--main-color);
 }
 
 #blockA{
