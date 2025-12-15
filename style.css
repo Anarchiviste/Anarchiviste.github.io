@@ -17,6 +17,7 @@ body {
   display: flex;
   flex-direction: column;
   background-color: black;
+  opacity: 0.9;
 }
 
 .t1{
