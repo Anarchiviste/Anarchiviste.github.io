@@ -10,6 +10,13 @@ body {
   background-position:top;
 }
 
+
+.container{
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+}
+
 .t1{
   font-family: "Coral Pixels", serif;
   font-size: 300%;
@@ -52,11 +59,4 @@ body {
 
 #blockC{
   order:3;
-}
-
-.container{
-  display: flex;
-  flex-direction: column;
-  background-color: black;
-  opacity: 0.8;
 }
