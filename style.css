@@ -224,6 +224,11 @@ footer {
   padding: 1.5rem;
 }
 
+footer a {
+    text-decoration: none;
+    color: inherit;
+}
+
 footer p {
   font-size: 0.78rem;
   color: var(--muted);
