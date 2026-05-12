@@ -1,18 +1,37 @@
 <!DOCTYPE html>
 <html lang="">
-   <div id="head-placeholder"></div>
-
-   <script>
-     fetch('pages/head.html')
-       .then(r => r.text())
-       .then(html => document.getElementById('head-placeholder').innerHTML = html);
-
-      fetch('pages/header.html')
-       .then(r => r.text())
-       .then(html => document.getElementById('header-placeholder').innerHTML = html);
+   <head>
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>Jules Musquin</title>
+   <link rel="icon" type="image/x-icon" href="../img/icon.jpg">
+   <link type="text/css" rel="stylesheet" href="style.css">
+   <link type="text/css" rel="stylesheet" href="../style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+</head>
    </script>
    <body>
-      <div id="header-placeholder"></div>
+      <header id="#top">
+   <div class="header">
+      <div class="header-title">
+         <a href="index.html">
+            <h1>Jules Musquin</h1>
+         </a>
+      </div>
+      <img src="img/lujes.png">
+      <p>I am a student in my second year of my second master in archival studies and digital humanities at the École nationale des chartes. I am currently an intern at the Imagine - LIGM lab 
+         at the École nationale des ponts et chaussées.
+      </p>
+   </div>
+   <div class="navbar">
+      <div class="navbutton"><a href="index.html">Home</a></div>
+      <div class="navbutton"><a href="cv.html">CV</a></div>
+      <div class="navbutton"><a href="page_3.html">Publications</a></div>
+      <div class="navbutton"><a href="https://github.com/Anarchiviste">Github</a></div>
+      <div class="navbutton"><a href="page_5.html">Opinions</a></div>
+   </div>
+</header>
       <main>
          <h1>
             Research
@@ -21,7 +40,7 @@
          <p>I won the <a href="https://www.linkedin.com/posts/aaf-association-des-archivistes-fran%C3%A7ais-8b5021150_f%C3%A9licitations-au-laur%C3%A9at-de-la-quatri%C3%A8me-share-7313832864003874816-2Yt2?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD74oEUBeHtOUYNkvyILHWtX6kzo8BNDHio">grant for publication from the Association of French Archivists</a>, which will lead to the publication of a scholarly article in La Gazette des archives.</p>
       </main>
       <footer>
-         <a href="#head_placeholder"><p> go to top</p></a>
+         <a href="#top"><p>go to top</p></a>
       </footer>
    </body>
 </html>
